@@ -1,6 +1,6 @@
 class Article:
 
-    
+    #these two lines do the same thing, wrote for my on understanding, variable articles is similar to all
     articles=[]
     all = []
 
@@ -8,6 +8,8 @@ class Article:
         self.author = author        
         self.magazine = magazine
         self.title = title
+
+        #these two lines do the same thing, wrote for my on understanding, variable articles is similar to all
         Article.articles.append(self)
         Article.all.append(self)
 
